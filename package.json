@@ -5,8 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test":"ng test",
+    "lint": "ng lint",
+    "e2e":"ng e2e",
+    "deploy":"ng b --prod --base-href https://minnuambalath.github.io/portfolioo/&& npx ngh --dir=dit/myportfolio",
+    "watch": "ng build --watch --configuration development"
+
   },
   "private": true,
   "dependencies": {
