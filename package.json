@@ -8,7 +8,7 @@
     "test":"ng test",
     "lint": "ng lint",
     "e2e":"ng e2e",
-    "deploy":"ng b --prod --base-href https://minnuambalath.github.io/portfolioo/&& npx ngh --dir=dist/document",
+    "deploy":"ng b --prod --base-href https://minnuambalath.github.io/angularfolio/&& npx ngh --dir=dist/document",
     "watch": "ng build --watch --configuration development"
 
   },
